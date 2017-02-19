@@ -67,7 +67,7 @@ function graph(chart_id) {
    y = 0;
    data = []; dataSeries = { type: "line" };
    dataPoints = [];
-   for (var i = 0; i < array_size-2; i += 1) {
+   for (var i = 2; i < array_size-2; i += 1) {
     // y += (Math.random() * 10 - 5);
     if(chart=="accelerometer"){
       // console.log("accl chart");
